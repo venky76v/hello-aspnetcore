@@ -36,7 +36,7 @@ stages:
         tags: |
           $(tag)
           
-    - upload: manifests
+    - publish: manifests
       artifact: manifests
 
 - stage: Deploy
